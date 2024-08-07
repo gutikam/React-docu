@@ -16,6 +16,9 @@ import RelojHooks from './componentes/RelojHooks'
 import AyaxHooks from './componentes/AyaxHooks'
 import HooksPersonalizados from './componentes/HooksPersonalizados'
 import Referencias from './componentes/Referencias'
+import Formularios from './componentes/Formularios'
+import Estilos from './componentes/Estilos'
+import CompnentesEstilizados from './componentes/ComponentesEstilizados'
 
 
 
@@ -79,6 +82,12 @@ function App() {
       <HooksPersonalizados/>
       <hr />
       <Referencias/>
+      <hr />
+      <Formularios/>
+      <hr />
+      <Estilos/>
+      <hr />
+      <CompnentesEstilizados/>
     </>
   )
 }
