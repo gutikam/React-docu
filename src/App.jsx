@@ -8,7 +8,15 @@ import RenderizadoCondicional from './componentes/RenderizadoCondicional'
 import RenderizadoElementos from './RenderizadoElementos'
 import { CompoDesestruc, OtroCompDesest } from './componentes/CompoDesestruc'
 import EventoPersonalizado from './componentes/EventoPersonalizado'
+import CicloVidaCompo from './componentes/CicloVidaCompo'
+import ContadorHooks from './componentes/ContadorHooks'
 import './App.css'
+import CicloVidaHook from './componentes/CicloVidaHook'
+import RelojHooks from './componentes/RelojHooks'
+import AyaxHooks from './componentes/AyaxHooks'
+import HooksPersonalizados from './componentes/HooksPersonalizados'
+import Referencias from './componentes/Referencias'
+
 
 
 function App() {
@@ -57,6 +65,20 @@ function App() {
       <OtroCompDesest/>
       <hr />
       <EventoPersonalizado myOnClick={(e) => handleClick(e, "evento")} />
+      <hr />
+      <CicloVidaCompo/>
+      <hr />
+      <ContadorHooks titulo="seguidores"/>
+      <hr />
+      <CicloVidaHook/>
+      <hr />
+      <RelojHooks/>
+      <hr />
+      <AyaxHooks/>
+      <hr />
+      <HooksPersonalizados/>
+      <hr />
+      <Referencias/>
     </>
   )
 }
